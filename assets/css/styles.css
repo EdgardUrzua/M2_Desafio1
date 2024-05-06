@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+menu {
+  width: 20%;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-right: 2px solid #ccc;
+}
+
+.usuario {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.usuario img {
+  display: flex;
+  width: 15%;
+  height: 15%;
+  border-radius: 50%;
+}
+
+.nombre {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.mensaje {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.usuario .estado {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  color: #e8ebe4;
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+
+}
+
+button{
+
+  width: 130px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #a491a4;
+  border-color: #a491a4;
+}
+button:hover {
+  background: #CDC3E6;
+}
+button:active {
+  background: #D4DCFF;
+}
+
+.usuario2 img {
+  margin-left: 5px;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.usuario2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+}
+
+.principal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #bec1bb;
+}
+
+.principal img {
+  width: 300px;
+}
+
+.principal h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+}
+
+.principal p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
